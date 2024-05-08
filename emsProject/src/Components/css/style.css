@@ -1,0 +1,85 @@
+.loginPage {
+  background-image: url("Images/depositphotos_31104559-stock-photo-customer-or-employees-care-concept.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgPage {
+  background-image: url("Images/rogue+employee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homeBg {
+  background-image: url("Images/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+background-color: #fff;
+  padding: 20px;
+  /* padding-left: 2em; */
+  height: 85vh;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 1.1rem;
+
+}
+
+.container input[type="text"],
+.container input[type="number"],
+.container input[type="email"],
+.container input[type="file"],
+.container input[type="password"] {
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#department{
+  width: 96%;
+  padding: 10px;
+}
+
+.container input[type="submit"] {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+  background-color: #555;
+}
+
+
+/* Define the animation */
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+    opacity: 0; /* Adjust the distance the alert floats upward */
+  }
+}
+
+/* Apply the animation to the alert */
+.success-alert {
+  animation: floatUp 3s ease; /* Adjust the duration and easing as needed */
+}
